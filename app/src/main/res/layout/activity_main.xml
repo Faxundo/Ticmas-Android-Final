@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".view.MainActivity">
+
+    <EditText
+        android:id="@+id/editableTextOne"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".40"
+        android:gravity="center"
+        android:inputType="text"
+        android:hint="@string/editableInput"
+        android:textSize="25sp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".005"
+        android:background="@android:color/black" />
+    <EditText
+        android:id="@+id/editableTextTwo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".40"
+        android:inputType="text"
+        android:gravity="center"
+        android:hint="@string/editableInput"
+        android:textSize="25sp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".005"
+        android:background="@android:color/black" />
+    <TextView
+        android:id="@+id/text_result"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".10"
+        android:gravity="center"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/result_button"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight=".10"
+        android:text="@string/button"
+        android:textSize="20sp"/>
+</LinearLayout>

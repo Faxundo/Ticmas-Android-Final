@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Comparador</string>
+    <string name="button">Comparar</string>
+    <string name="editableInput">Inserte el texto a comparar</string>
+</resources>
